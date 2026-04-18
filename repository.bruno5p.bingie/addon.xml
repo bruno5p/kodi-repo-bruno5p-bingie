@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.bruno5p.bingie" name="Bruno5p Bingie Repository" version="1.0.0" provider-name="bruno5p">
+	<requires/>
+	<extension point="xbmc.addon.repository" name="Bruno5p Bingie Repository">
+		<dir>
+			<info compressed="false">https://bruno5p.github.io/kodi-repo-bruno5p-bingie/addons.xml</info>
+			<checksum>https://bruno5p.github.io/kodi-repo-bruno5p-bingie/addons.xml.md5</checksum>
+			<datadir zip="true">https://bruno5p.github.io/kodi-repo-bruno5p-bingie/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bruno5p Bingie Repository</summary>
+		<description lang="en">Bingie skin and related addons, self-hosted by bruno5p.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
