@@ -57,7 +57,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="repository.bruno5p.bingie" name="Bruno5p Bingie Repository" version="1.1.0" provider-name="bruno5p">
+	<addon id="repository.bruno5p.bingie" name="Bruno5p Bingie Repository" version="1.1.1" provider-name="bruno5p">
 		<requires />
 		<extension point="xbmc.addon.repository" name="Bruno5p Bingie Repository">
 			<dir>
@@ -133,14 +133,14 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="script.bingie.toolbox" name="Bingie Toolbox" version="1.0.0" provider-name="matke">
+	<addon id="script.bingie.toolbox" name="Bingie Toolbox" version="1.0.1" provider-name="matke">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0" />
 			<import addon="xbmc.addon" version="12.0.0" />
 			<import addon="script.module.simplejson" version="3.3.0" />
 			<import addon="script.module.simplecache" version="1.0.0" />
 		</requires>
-		<extension point="xbmc.python.library" library="default.py" />
+		<extension point="xbmc.python.script" library="default.py" />
 		<extension point="xbmc.python.pluginsource" library="plugin.py" />
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Bingie Toolbox</summary>
