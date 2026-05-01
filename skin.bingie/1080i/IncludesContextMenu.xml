@@ -67,10 +67,17 @@
                 <height>816</height>
                 <itemgap>3</itemgap>
                 <!--Buttons-->
+                <control type="button">
+                    <include>SideBladeMenuButton</include>
+                    <label>Rescrape Sources</label>
+                    <onclick>Dialog.Close(contextmenu)</onclick>
+                    <onclick>RunPlugin($INFO[ListItem.FileNameAndPath]?rescrape=true)</onclick>
+                    <visible>String.IsEqual(Container.PluginName,plugin.video.otaku.testing) + Container.Content(episodes)</visible>
+                </control>
                 <control type="button" id="1000">
                     <description>Buttons</description>
-                    <include>SideBladeMenuButton</include>               
-				</control>			
+                    <include>SideBladeMenuButton</include>
+				</control>
             </control>
         </control>
 	</include>	
